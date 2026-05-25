@@ -1,6 +1,4 @@
-import copy
-
-from models.node import Node
+from algorithms import copy
 
 
 def move_possible(node):

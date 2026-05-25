@@ -1,4 +1,4 @@
-from algorithms.utils import move_possible, action, solution
+from algorithms import deque, Node, move_possible, action, solution
 
 def BFS1(node, goal):
     frontier = deque()

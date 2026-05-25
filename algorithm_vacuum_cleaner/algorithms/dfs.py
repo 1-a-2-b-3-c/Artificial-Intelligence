@@ -1,6 +1,4 @@
-from models.node import Node
-from algorithms.utils import move_possible, action, solution
-
+from algorithms import Node, move_possible, action, solution
 
 def DFS1(node, goal):
     frontier = []
