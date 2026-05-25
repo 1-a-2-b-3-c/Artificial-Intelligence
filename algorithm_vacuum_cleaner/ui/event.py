@@ -1,8 +1,6 @@
-import tkinter as tk
-from tkinter import messagebox
-from logger import write_log
+from ui import tk, messagebox, Node
 
-def click_random(event, matrix, log_panel):
+def click_random(event, matrix, log_panel, matrix_frame):
     for widget in matrix_frame.winfo_children():
         widget.destroy()
 
