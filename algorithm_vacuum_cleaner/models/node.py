@@ -1,5 +1,4 @@
-import random
-import copy 
+from models import random, copy
 
 class Node:
     def __init__(self, state=None, parent=None, direction=None, cost=None, x=None, y=None):
